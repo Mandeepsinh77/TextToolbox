@@ -80,7 +80,7 @@ function App() {
   return (
     <>
       <Router>
-        <Navbar title="TextUtil" aboutText="about Us" mode={mode} toggleMode={ChangeMode} modeText={modeText} />
+        <Navbar title="TextToolbox" aboutText="about Us" mode={mode} toggleMode={ChangeMode} modeText={modeText} />
         <div className="container">
           {/* <Navbar/> */}
           <Alert alert={alert} />
